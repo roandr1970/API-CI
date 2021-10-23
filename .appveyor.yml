@@ -17,7 +17,7 @@ install:
 
 build_script:
   - chmod +x src/gradlew
-  - /gradlew test --info  # запускаем тест, флаг --info позволяет выводить больше информации
+  - src/gradlew test --info  # запускаем тест, флаг --info позволяет выводить больше информации
 
 
 
